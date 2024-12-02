@@ -7,6 +7,6 @@
    内容和阿里官网版本v2.4.3模一样，只是修改了cluster-ip.yaml里面的挂载地址
    1. 挂载目录：打开配置文件/qxdatacloud/nacos-docker/example/.env,将HOST_VOLUME_PATH修改你成你的地址
    2. /qxdatacloud/nacos-docker/下执行命令启动nacos 命令：
-       `docker-compose -f example/cluster-ip.yaml -p nacos up`
+   3. `docker-compose -f example/cluster-ip.yaml -p nacos up`
 
 ## 二、 gateway

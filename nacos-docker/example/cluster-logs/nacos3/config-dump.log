@@ -1,0 +1,334 @@
+2024-11-26 12:30:09,898 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 12:30:09,902 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 12:30:09,904 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 12:30:09,898 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 12:30:09,902 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 12:30:09,933 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 12:30:09,935 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 12:30:09,936 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 12:30:09,936 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 12:30:09,936 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 12:30:09,937 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 12:30:09,936 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 12:30:09,936 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 12:30:09,937 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 12:30:09,938 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 12:34:00,213 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 12:34:00,213 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 12:34:00,216 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 12:34:00,217 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 12:34:00,222 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 12:34:00,237 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 12:34:00,238 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 12:34:00,242 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 12:34:00,239 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 12:34:00,244 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 12:34:00,239 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 12:34:00,244 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 12:34:00,239 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 12:34:00,242 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 12:34:00,246 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 12:38:20,593 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 12:38:20,593 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 12:38:20,595 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 12:38:20,594 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 12:38:20,593 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 12:38:20,634 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 12:38:20,635 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 12:38:20,636 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 12:38:20,635 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 12:38:20,637 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 12:38:20,635 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 12:38:20,636 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 12:38:20,635 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 12:38:20,640 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 12:38:20,640 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 16:02:49,482 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 16:02:49,482 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 16:02:49,482 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 16:02:49,484 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 16:02:49,484 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 16:02:49,506 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 16:02:49,506 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 16:02:49,506 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 16:02:49,507 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 16:02:49,507 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 16:02:49,506 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 16:02:49,509 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 16:02:49,507 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 16:02:49,507 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 16:02:49,513 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 16:09:13,051 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 16:09:13,051 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 16:09:13,051 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 16:09:13,051 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 16:09:13,051 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 16:09:13,068 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 16:09:13,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 16:09:13,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 16:09:13,071 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 16:09:13,070 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 16:09:13,069 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 16:09:13,071 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 16:09:13,072 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 16:09:13,074 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 16:09:13,074 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 16:11:11,624 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=
+
+2024-11-26 16:11:11,624 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=
+
+2024-11-26 16:11:11,624 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=
+
+2024-11-26 16:11:11,624 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=
+
+2024-11-26 16:11:11,624 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=
+
+2024-11-26 16:11:11,642 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=3e08ded6dcb9f9acf05bcd10669e031a,oldMd5=,lastModifiedTs=1732562292000
+
+2024-11-26 16:11:11,642 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-cloud-gateway-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=a7defe9b87fb4b8c13a6c48bcb76120a,oldMd5=,lastModifiedTs=1732244538000
+
+2024-11-26 16:11:11,643 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-prod.yaml+group-prod+a40464ac-f1c6-4c33-9650-5c576e4bc3ee, newMd5=3550503e8e85edb174ba5295cabf572c,oldMd5=,lastModifiedTs=1732235833000
+
+2024-11-26 16:11:11,643 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-payment-provider-dev.yaml+group-dev+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=82259468b2e24801794092ae390e3318,oldMd5=,lastModifiedTs=1732235639000
+
+2024-11-26 16:11:11,643 INFO [dump-all-ok] qxdata-cloud-gateway-dev+qxdatacloud, 1732562292000, length=137,md5UTF8=3e08ded6dcb9f9acf05bcd10669e031a
+
+2024-11-26 16:11:11,645 INFO [dump-all-ok] nacos-cloud-gateway-dev.yaml+group-dev, 1732244538000, length=128,md5UTF8=a7defe9b87fb4b8c13a6c48bcb76120a
+
+2024-11-26 16:11:11,645 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-qxmain-nacos.yaml+qxmain+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=cdfd20c8bc36de4de1bd95397fff1669,oldMd5=,lastModifiedTs=1721678751000
+
+2024-11-26 16:11:11,645 INFO [dump-all-ok] nacos-payment-provider-prod.yaml+group-prod, 1732235833000, length=2317,md5UTF8=3550503e8e85edb174ba5295cabf572c
+
+2024-11-26 16:11:11,645 INFO [dump-all-ok] nacos-payment-provider-dev.yaml+group-dev, 1732235639000, length=2315,md5UTF8=82259468b2e24801794092ae390e3318
+
+2024-11-26 16:11:11,646 INFO [dump-all-ok] nacos-qxmain-nacos.yaml+qxmain, 1721678751000, length=7191,md5UTF8=cdfd20c8bc36de4de1bd95397fff1669
+
+2024-11-26 17:24:27,180 INFO [dump] add formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:24:27,189 INFO [dump] process formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:24:27,192 INFO [dump] md5 changed, save to disk cache ,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=8fa14cdd754f91cc6554c9e71929cce7,oldMd5=
+
+2024-11-26 17:24:27,193 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=8fa14cdd754f91cc6554c9e71929cce7,oldMd5=,lastModifiedTs=1732584267000
+
+2024-11-26 17:25:53,873 INFO [dump] add formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:25:53,965 INFO [dump] process formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:25:53,966 INFO [dump] md5 changed, save to disk cache ,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=bac7de78bf4aa0ececd310e92e7801d4,oldMd5=8fa14cdd754f91cc6554c9e71929cce7
+
+2024-11-26 17:25:53,967 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=bac7de78bf4aa0ececd310e92e7801d4,oldMd5=8fa14cdd754f91cc6554c9e71929cce7,lastModifiedTs=1732584354000
+
+2024-11-26 17:32:08,654 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:32:08,685 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:32:08,687 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=
+
+2024-11-26 17:32:08,688 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=,lastModifiedTs=1732584729000
+
+2024-11-26 17:32:33,347 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:32:33,409 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:32:33,411 INFO [dump] remove  local disk cache,groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 17:32:33,411 INFO [dump] remove  local jvm cache,groupKey=qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 17:32:41,168 INFO [remove-ok] qxdata-system-server-dev+qxdata+c9e3be4d-5169-46ab-aed9-3e2c94165578 not exist.
+
+2024-11-26 17:33:04,666 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:33:04,738 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:33:04,740 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=
+
+2024-11-26 17:33:04,741 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=,lastModifiedTs=1732584785000
+
+2024-11-26 17:33:24,949 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:33:24,958 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:33:24,961 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=bac7de78bf4aa0ececd310e92e7801d4,oldMd5=c4ca4238a0b923820dcc509a6f75849b
+
+2024-11-26 17:33:24,962 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=bac7de78bf4aa0ececd310e92e7801d4,oldMd5=c4ca4238a0b923820dcc509a6f75849b,lastModifiedTs=1732584805000
+
+2024-11-26 17:34:06,413 INFO [dump] add formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:34:06,498 INFO [dump] process formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:34:06,499 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=
+
+2024-11-26 17:34:06,500 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=c4ca4238a0b923820dcc509a6f75849b,oldMd5=,lastModifiedTs=1732584846000
+
+2024-11-26 17:37:50,726 INFO [dump] add formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:37:50,798 INFO [dump] process formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:37:50,800 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=d05785e78e6858508ef20c303aad19b8,oldMd5=c4ca4238a0b923820dcc509a6f75849b
+
+2024-11-26 17:37:50,801 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=d05785e78e6858508ef20c303aad19b8,oldMd5=c4ca4238a0b923820dcc509a6f75849b,lastModifiedTs=1732585071000
+
+2024-11-26 17:52:23,093 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:52:23,179 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 17:52:23,181 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=7e142a4095ff5013c532e7aceaa649e3,oldMd5=bac7de78bf4aa0ececd310e92e7801d4
+
+2024-11-26 17:52:23,182 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=7e142a4095ff5013c532e7aceaa649e3,oldMd5=bac7de78bf4aa0ececd310e92e7801d4,lastModifiedTs=1732585943000
+
+2024-11-26 18:00:29,058 INFO [dump] add formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:00:29,096 INFO [dump] process formal task. groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:00:29,098 INFO [dump] remove  local disk cache,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:00:29,098 INFO [dump] remove  local jvm cache,groupKey=qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:00:41,440 INFO [remove-ok] qxdata-system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 not exist.
+
+2024-11-26 18:01:39,862 INFO [dump] add formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:01:39,958 INFO [dump] process formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:01:39,960 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=e4f58cfb9534816f1cc604616fdd15f8,oldMd5=
+
+2024-11-26 18:01:39,961 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=e4f58cfb9534816f1cc604616fdd15f8,oldMd5=,lastModifiedTs=1732586500000
+
+2024-11-26 18:03:09,455 INFO [dump] add formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:03:09,537 INFO [dump] process formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:03:09,538 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=4ad6ab766fc746c781f78affcd682c4e,oldMd5=e4f58cfb9534816f1cc604616fdd15f8
+
+2024-11-26 18:03:09,539 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=4ad6ab766fc746c781f78affcd682c4e,oldMd5=e4f58cfb9534816f1cc604616fdd15f8,lastModifiedTs=1732586589000
+
+2024-11-26 18:04:25,529 INFO [dump] add formal task. groupKey=qxdata-gateway-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:25,602 INFO [dump] process formal task. groupKey=qxdata-gateway-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:25,603 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-gateway-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=4f1e0e662b61b22c04e768cf46b1294f,oldMd5=
+
+2024-11-26 18:04:25,604 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-gateway-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=4f1e0e662b61b22c04e768cf46b1294f,oldMd5=,lastModifiedTs=1732586666000
+
+2024-11-26 18:04:35,027 INFO [dump] add formal task. groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:35,114 INFO [dump] process formal task. groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:35,116 INFO [dump] remove  local disk cache,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:04:35,117 INFO [dump] remove  local jvm cache,groupKey=qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:04:41,474 INFO [remove-ok] qxdata-cloud-gateway-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 not exist.
+
+2024-11-26 18:04:43,534 INFO [dump] add formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:43,624 INFO [dump] process formal task. groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:43,626 INFO [dump] remove  local disk cache,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:04:43,627 INFO [dump] remove  local jvm cache,groupKey=system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:04:49,213 INFO [dump] add formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:49,233 INFO [dump] process formal task. groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:04:49,234 INFO [dump] remove  local disk cache,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:04:49,235 INFO [dump] remove  local jvm cache,groupKey=qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 
+
+2024-11-26 18:05:11,479 INFO [remove-ok] system-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 not exist.
+
+2024-11-26 18:05:11,480 INFO [remove-ok] qxdata-gateway-server-dev+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578 not exist.
+
+2024-11-26 18:05:33,258 INFO [dump] add formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:05:33,273 INFO [dump] process formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:05:33,275 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=661fbe114cb724e40f8d438ff9d7af10,oldMd5=4ad6ab766fc746c781f78affcd682c4e
+
+2024-11-26 18:05:33,275 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=661fbe114cb724e40f8d438ff9d7af10,oldMd5=4ad6ab766fc746c781f78affcd682c4e,lastModifiedTs=1732586733000
+
+2024-11-26 18:06:41,293 INFO [dump] add formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:06:41,334 INFO [dump] process formal task. groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578
+
+2024-11-26 18:06:41,335 INFO [dump] md5 changed, save to disk cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=65208f1b31c0fb807116cf831a4debd2,oldMd5=661fbe114cb724e40f8d438ff9d7af10
+
+2024-11-26 18:06:41,336 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=qxdata-system-server-dev.yaml+qxdatacloud+c9e3be4d-5169-46ab-aed9-3e2c94165578, newMd5=65208f1b31c0fb807116cf831a4debd2,oldMd5=661fbe114cb724e40f8d438ff9d7af10,lastModifiedTs=1732586801000
+

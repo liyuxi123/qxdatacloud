@@ -1,0 +1,12 @@
+2024-11-26 12:30:08,757 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-11-26 12:33:58,880 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-11-26 12:38:19,449 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-11-26 16:02:47,549 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-11-26 16:09:10,700 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-11-26 16:11:10,268 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+

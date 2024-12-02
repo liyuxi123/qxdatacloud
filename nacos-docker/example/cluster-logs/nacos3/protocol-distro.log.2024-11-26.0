@@ -1,0 +1,1146 @@
+2024-11-26 12:30:07,576 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:30:08,578 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:30:09,583 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:30:10,584 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:30:11,586 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:30:12,562 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:12,588 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-11-26 12:30:12,600 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:30:12,601 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2024-11-26 12:30:12,602 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:30:17,563 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:22,565 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:27,566 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:32,567 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:37,567 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:42,568 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:30:42,603 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-11-26 12:30:42,612 INFO [DISTRO-INIT] it took 9 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 25.
+
+2024-11-26 12:30:42,618 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-11-26 12:30:42,618 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 12:32:22,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,883 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:32:22,884 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:33:57,651 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:33:58,651 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:33:59,653 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:34:00,654 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:34:01,655 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:34:02,656 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:34:03,658 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-11-26 12:34:03,670 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:34:03,671 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2024-11-26 12:34:03,673 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:34:07,650 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:12,651 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:17,652 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:22,654 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:27,655 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:32,656 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:34:33,678 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-11-26 12:34:33,699 INFO [DISTRO-INIT] it took 21 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 25.
+
+2024-11-26 12:34:33,704 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-11-26 12:34:33,705 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:37:24,192 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 12:38:18,407 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:38:19,408 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:38:20,410 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:38:21,411 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:38:22,412 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 12:38:23,406 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:23,413 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 12:38:23,414 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.10:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:38:23,416 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848
+
+2024-11-26 12:38:23,416 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.11:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 12:38:28,407 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:33,408 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:38,409 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:43,410 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:48,411 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:53,413 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 12:38:53,417 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 12:38:53,428 INFO [DISTRO-INIT] it took 11 ms to load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 and snapshot size is 25.
+
+2024-11-26 12:38:53,433 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 result: true
+
+2024-11-26 12:38:53,433 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 14:52:15,227 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732603934047_172.16.238.1_53084', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:01:02,182 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732603934047_172.16.238.1_53084', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:36:07,641 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732606566466_172.16.238.1_33886', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:37:22,702 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732606566466_172.16.238.1_33886', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:37:42,418 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732606661228_172.16.238.1_54880', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:38:10,642 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732606661228_172.16.238.1_54880', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 15:38:30,361 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 15:38:30,361 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 15:38:30,384 INFO [DISTRO-END] DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 15:38:30,385 INFO [DISTRO-END] DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 15:48:40,183 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 15:48:40,183 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 15:48:40,186 INFO [DISTRO-END] DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 15:48:40,186 INFO [DISTRO-END] DistroKey{resourceKey='1732606709140_172.16.238.1_33636', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 15:51:33,639 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732607492476_172.16.238.1_40108', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,660 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,659 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,661 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:01:52,658 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:02:46,657 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:47,660 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:48,661 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:49,667 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:50,669 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:51,671 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:02:52,673 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:02:52,674 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.10:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:02:52,678 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848
+
+2024-11-26 16:02:52,678 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.11:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:02:56,660 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:01,661 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:06,662 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:11,663 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:16,664 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:21,665 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:03:22,679 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:03:22,701 INFO [DISTRO-INIT] it took 22 ms to load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 and snapshot size is 25.
+
+2024-11-26 16:03:22,708 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 result: true
+
+2024-11-26 16:03:22,708 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 16:03:26,956 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732608174672_172.16.238.1_56004', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:05:23,164 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608174672_172.16.238.1_56004', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:05:43,581 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608342051_172.16.238.1_39178', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:06:44,483 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608402475_172.16.238.1_58548', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:07:11,706 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732608431437_172.16.238.1_53872', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:07:13,007 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608431437_172.16.238.1_53872', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:07:48,640 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608467089_172.16.238.1_57268', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:08:31,762 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,762 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,821 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,832 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,828 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,835 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,824 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,833 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,835 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:08:31,835 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:09:10,488 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:11,490 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:12,491 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:13,492 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:14,493 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:15,494 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:09:16,497 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:09:16,504 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.10:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:09:16,505 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848
+
+2024-11-26 16:09:16,505 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.11:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:09:20,489 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:25,489 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:30,490 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:35,491 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:35,958 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608574384_172.16.238.1_36498', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:09:40,492 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:45,493 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:09:46,510 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:09:46,516 INFO [DISTRO-INIT] it took 6 ms to load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 and snapshot size is 25.
+
+2024-11-26 16:09:46,521 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 result: true
+
+2024-11-26 16:09:46,522 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,647 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:10:46,646 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-26 16:11:09,211 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:11:10,212 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:11:11,213 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:11:12,214 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:11:13,215 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-11-26 16:11:14,210 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:14,225 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:11:14,226 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.10:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:11:14,228 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848
+
+2024-11-26 16:11:14,230 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.11:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server 172.16.238.11:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:11:19,214 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:24,215 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:29,215 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:34,216 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:34,246 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732608693047_172.16.238.1_49538', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:11:39,217 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:44,218 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-11-26 16:11:44,231 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848
+
+2024-11-26 16:11:44,236 INFO [DISTRO-INIT] it took 5 ms to load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 and snapshot size is 510.
+
+2024-11-26 16:11:44,237 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from 172.16.238.10:8848 result: true
+
+2024-11-26 16:11:44,238 INFO [DISTRO-INIT] load snapshot data success
+
+2024-11-26 16:12:03,356 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608693047_172.16.238.1_49538', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:12:23,173 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732608741949_172.16.238.1_35794', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:19:19,338 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732608741949_172.16.238.1_35794', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 16:19:48,698 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 16:19:48,698 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 16:19:48,721 INFO [DISTRO-END] DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 16:19:48,721 INFO [DISTRO-END] DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 16:20:55,657 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 16:20:55,657 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 16:20:55,660 INFO [DISTRO-END] DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 16:20:55,661 INFO [DISTRO-END] DistroKey{resourceKey='1732609187557_172.16.238.1_53598', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 16:29:44,228 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732609782992_172.16.238.1_52758', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:00:09,448 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732609782992_172.16.238.1_52758', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:00:30,766 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732611629576_172.16.238.1_48748', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:05:46,535 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732611629576_172.16.238.1_48748', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:08:15,955 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:08:15,955 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:08:15,958 INFO [DISTRO-END] DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 17:08:15,959 INFO [DISTRO-END] DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:28:09,477 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732613288833_172.16.238.1_47956', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:35:50,865 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732613288833_172.16.238.1_47956', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:36:14,606 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732613773472_172.16.238.1_48792', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:38:05,402 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:38:05,402 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:38:05,406 INFO [DISTRO-END] DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 17:38:05,406 INFO [DISTRO-END] DistroKey{resourceKey='1732612094773_172.16.238.1_41500', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:38:31,931 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:38:31,931 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:38:31,934 INFO [DISTRO-END] DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:38:31,934 INFO [DISTRO-END] DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 17:38:38,937 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:38:38,937 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:38:38,940 INFO [DISTRO-END] DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 17:38:38,941 INFO [DISTRO-END] DistroKey{resourceKey='1732613910770_172.16.238.1_38066', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:39:01,138 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732613939964_172.16.238.1_41708', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:43:18,395 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732613773472_172.16.238.1_48792', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:43:39,608 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732614219325_172.16.238.1_52102', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:43:40,810 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732614219325_172.16.238.1_52102', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:48:51,698 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732614530555_172.16.238.1_48600', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:49:36,136 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732614530555_172.16.238.1_48600', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:49:54,256 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732614593117_172.16.238.1_58816', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:49:54,256 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732614593117_172.16.238.1_58816', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:49:54,259 INFO [DISTRO-END] DistroKey{resourceKey='1732614593117_172.16.238.1_58816', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 17:49:54,260 INFO [DISTRO-END] DistroKey{resourceKey='1732614593117_172.16.238.1_58816', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:56:23,187 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732614982000_172.16.238.1_51630', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:57:40,459 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732614982000_172.16.238.1_51630', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 17:57:58,367 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 17:57:58,367 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 17:57:58,370 INFO [DISTRO-END] DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 17:57:58,371 INFO [DISTRO-END] DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:02:38,810 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:02:38,810 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:02:38,815 INFO [DISTRO-END] DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:02:38,816 INFO [DISTRO-END] DistroKey{resourceKey='1732615077174_172.16.238.1_49422', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:02:57,558 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732615376352_172.16.238.1_59564', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:05:01,383 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732615376352_172.16.238.1_59564', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:05:19,355 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732615518128_172.16.238.1_52840', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:05:51,888 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732615518128_172.16.238.1_52840', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:06:09,599 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:06:09,599 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:06:09,603 INFO [DISTRO-END] DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:06:09,604 INFO [DISTRO-END] DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:14:18,721 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:14:18,721 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:14:18,728 INFO [DISTRO-END] DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:14:18,729 INFO [DISTRO-END] DistroKey{resourceKey='1732615569151_172.16.238.1_55432', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:14:36,058 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732616074886_172.16.238.1_44812', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:16:08,638 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732616074886_172.16.238.1_44812', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:16:26,339 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732616184786_172.16.238.1_52840', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:17:04,567 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:17:04,567 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:17:04,570 INFO [DISTRO-END] DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:17:04,571 INFO [DISTRO-END] DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:18:45,452 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:18:45,452 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:18:45,473 INFO [DISTRO-END] DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:18:45,476 INFO [DISTRO-END] DistroKey{resourceKey='1732616223728_172.16.238.1_45450', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:19:03,095 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732616341552_172.16.238.1_52126', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:19:36,702 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732616375508_172.16.238.1_57790', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:21:12,909 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732613939964_172.16.238.1_41708', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:21:33,196 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:21:33,196 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:21:33,200 INFO [DISTRO-END] DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:21:33,201 INFO [DISTRO-END] DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:31:30,009 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 18:31:30,009 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 18:31:30,012 INFO [DISTRO-END] DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 18:31:30,012 INFO [DISTRO-END] DistroKey{resourceKey='1732616491984_172.16.238.1_48306', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 18:31:49,644 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732617109072_172.16.238.1_41428', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:35:17,732 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732617109072_172.16.238.1_41428', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:35:39,436 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732617338265_172.16.238.1_37250', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:54:20,871 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732616375508_172.16.238.1_57790', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 18:54:20,871 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1732617338265_172.16.238.1_37250', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+
+2024-11-26 19:03:24,591 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732619003361_172.16.238.1_49478', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'}
+
+2024-11-26 19:03:24,591 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1732619003361_172.16.238.1_49478', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'}
+
+2024-11-26 19:03:24,596 INFO [DISTRO-END] DistroKey{resourceKey='1732619003361_172.16.238.1_49478', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.11:8848'} result: true
+
+2024-11-26 19:03:24,596 INFO [DISTRO-END] DistroKey{resourceKey='1732619003361_172.16.238.1_49478', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.10:8848'} result: true
+
+2024-11-26 19:03:51,318 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1732619030149_172.16.238.1_58328', resourceType='Nacos:Naming:v2:ClientData', targetServer='172.16.238.12:8848'}
+

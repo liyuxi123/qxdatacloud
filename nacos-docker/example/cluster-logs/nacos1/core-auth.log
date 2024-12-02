@@ -1,0 +1,88 @@
+2024-11-26 16:03:36,186 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2024-11-26 16:03:36,195 DEBUG auth permission: Permission{resource='Resource{namespaceId='', group='', name='', type='config', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjIxMn0.GjP2XySNQSq7-bSLmvdzS3CQAxa4VnF9Vdk8cqc-ctQ5IwshBGPdLMhxtk_vhW_3', globalAdmin=false}
+
+2024-11-26 16:03:58,354 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2024-11-26 16:03:58,355 DEBUG auth permission: Permission{resource='Resource{namespaceId='', group='', name='', type='config', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjIzOH0.z0YguRfqz_mHlAHOUtRzcuWX8LQZMUVzjSv344t6OOxtd5ym_Vcsn369ZniHgq2X', globalAdmin=false}
+
+2024-11-26 16:04:37,577 DEBUG auth start, request: GET /nacos/v1/core/cluster/nodes
+
+2024-11-26 16:04:37,579 DEBUG auth permission: Permission{resource='Resource{namespaceId='null', group='null', name='/v1/core/cluster', type='specified', properties=null}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjI0OH0.Xxtcm3mknrBHfrRyWtt21fV1VcGvTuk5uazDtB2v6XgxQofTyEYHGsflBdB52nWU', globalAdmin=false}
+
+2024-11-26 16:05:12,394 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2024-11-26 16:05:12,396 DEBUG auth permission: Permission{resource='Resource{namespaceId='', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjI0OH0.Xxtcm3mknrBHfrRyWtt21fV1VcGvTuk5uazDtB2v6XgxQofTyEYHGsflBdB52nWU', globalAdmin=false}
+
+2024-11-26 16:05:13,102 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2024-11-26 16:05:13,103 DEBUG auth permission: Permission{resource='Resource{namespaceId='', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjI0OH0.Xxtcm3mknrBHfrRyWtt21fV1VcGvTuk5uazDtB2v6XgxQofTyEYHGsflBdB52nWU', globalAdmin=false}
+
+2024-11-26 16:05:16,263 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2024-11-26 16:05:16,264 DEBUG auth permission: Permission{resource='Resource{namespaceId='', group='', name='', type='naming', properties={action=r}}', action='r'}, nacosUser: NacosUser{token='eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTczMjYyNjI0OH0.Xxtcm3mknrBHfrRyWtt21fV1VcGvTuk5uazDtB2v6XgxQofTyEYHGsflBdB52nWU', globalAdmin=false}
+
+2024-11-26 16:05:35,896 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:05:35,897 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:05:35,931 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:05:35,932 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:05:35,938 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:05:35,939 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:06:43,089 DEBUG auth start, request: InstanceRequest
+
+2024-11-26 16:06:43,090 DEBUG access denied, request: InstanceRequest, reason: user not found!
+
+2024-11-26 16:07:05,333 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:05,334 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:05,356 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:05,357 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:05,363 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:05,363 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:11,569 DEBUG auth start, request: InstanceRequest
+
+2024-11-26 16:07:11,570 DEBUG access denied, request: InstanceRequest, reason: user not found!
+
+2024-11-26 16:07:40,885 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:40,886 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:40,909 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:40,909 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:40,916 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:07:40,916 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:07:47,234 DEBUG auth start, request: InstanceRequest
+
+2024-11-26 16:07:47,235 DEBUG access denied, request: InstanceRequest, reason: user not found!
+
+2024-11-26 16:09:28,091 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:09:28,096 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:09:28,122 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:09:28,122 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:09:28,129 DEBUG auth start, request: ConfigQueryRequest
+
+2024-11-26 16:09:28,130 DEBUG access denied, request: ConfigQueryRequest, reason: user not found!
+
+2024-11-26 16:09:34,525 DEBUG auth start, request: InstanceRequest
+
+2024-11-26 16:09:34,526 DEBUG access denied, request: InstanceRequest, reason: user not found!
+

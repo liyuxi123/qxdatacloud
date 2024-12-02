@@ -1,0 +1,716 @@
+2024-11-26 12:30:11,169 INFO Connection transportReady,connectionId = 1732595411169_172.21.0.4_54846 
+
+2024-11-26 12:30:11,362 INFO Connection transportReady,connectionId = 1732595411362_172.21.0.3_40450 
+
+2024-11-26 12:30:11,383 INFO Connection transportTerminated,connectionId = 1732595411169_172.21.0.4_54846 
+
+2024-11-26 12:30:11,473 INFO Connection transportTerminated,connectionId = 1732595411362_172.21.0.3_40450 
+
+2024-11-26 12:30:12,018 INFO Connection transportReady,connectionId = 1732595412018_172.21.0.4_54858 
+
+2024-11-26 12:30:12,083 INFO Connection transportTerminated,connectionId = 1732595412018_172.21.0.4_54858 
+
+2024-11-26 12:30:12,098 INFO Connection transportReady,connectionId = 1732595412098_172.21.0.3_40458 
+
+2024-11-26 12:30:12,116 INFO Connection transportTerminated,connectionId = 1732595412098_172.21.0.3_40458 
+
+2024-11-26 12:30:12,800 INFO Connection transportReady,connectionId = 1732595412800_172.21.0.4_54866 
+
+2024-11-26 12:30:12,834 INFO Connection transportTerminated,connectionId = 1732595412800_172.21.0.4_54866 
+
+2024-11-26 12:30:12,849 INFO Connection transportReady,connectionId = 1732595412849_172.21.0.3_40472 
+
+2024-11-26 12:30:12,896 INFO Connection transportTerminated,connectionId = 1732595412849_172.21.0.3_40472 
+
+2024-11-26 12:30:13,630 INFO Connection transportReady,connectionId = 1732595413630_172.21.0.4_54870 
+
+2024-11-26 12:30:13,648 INFO Connection transportTerminated,connectionId = 1732595413630_172.21.0.4_54870 
+
+2024-11-26 12:30:13,706 INFO Connection transportReady,connectionId = 1732595413706_172.21.0.3_40476 
+
+2024-11-26 12:30:13,735 INFO Connection transportTerminated,connectionId = 1732595413706_172.21.0.3_40476 
+
+2024-11-26 12:30:14,548 INFO Connection transportReady,connectionId = 1732595414548_172.21.0.4_54882 
+
+2024-11-26 12:30:14,638 INFO Connection transportReady,connectionId = 1732595414638_172.21.0.3_40492 
+
+2024-11-26 12:32:22,694 INFO Connection transportTerminated,connectionId = 1732595414638_172.21.0.3_40492 
+
+2024-11-26 12:32:22,694 INFO Connection transportTerminated,connectionId = 1732595414548_172.21.0.4_54882 
+
+2024-11-26 12:32:22,699 INFO [1732595414638_172.21.0.3_40492]client disconnected,clear config listen context
+
+2024-11-26 12:32:22,702 INFO [1732595414548_172.21.0.4_54882]client disconnected,clear config listen context
+
+2024-11-26 12:34:02,041 INFO Connection transportReady,connectionId = 1732595642041_172.22.0.3_35678 
+
+2024-11-26 12:34:02,067 INFO Connection transportReady,connectionId = 1732595642067_172.22.0.5_47430 
+
+2024-11-26 12:34:02,283 INFO Connection transportTerminated,connectionId = 1732595642067_172.22.0.5_47430 
+
+2024-11-26 12:34:02,343 INFO Connection transportTerminated,connectionId = 1732595642041_172.22.0.3_35678 
+
+2024-11-26 12:34:02,978 INFO Connection transportReady,connectionId = 1732595642978_172.22.0.5_47446 
+
+2024-11-26 12:34:03,008 INFO Connection transportTerminated,connectionId = 1732595642978_172.22.0.5_47446 
+
+2024-11-26 12:34:03,082 INFO Connection transportReady,connectionId = 1732595643082_172.22.0.3_35682 
+
+2024-11-26 12:34:03,160 INFO Connection transportTerminated,connectionId = 1732595643082_172.22.0.3_35682 
+
+2024-11-26 12:34:03,830 INFO Connection transportReady,connectionId = 1732595643830_172.22.0.5_47458 
+
+2024-11-26 12:34:03,846 INFO Connection transportTerminated,connectionId = 1732595643830_172.22.0.5_47458 
+
+2024-11-26 12:34:03,970 INFO Connection transportReady,connectionId = 1732595643970_172.22.0.3_35684 
+
+2024-11-26 12:34:04,035 INFO Connection transportTerminated,connectionId = 1732595643970_172.22.0.3_35684 
+
+2024-11-26 12:34:04,760 INFO Connection transportReady,connectionId = 1732595644760_172.22.0.5_47474 
+
+2024-11-26 12:34:04,784 INFO Connection transportTerminated,connectionId = 1732595644760_172.22.0.5_47474 
+
+2024-11-26 12:34:04,963 INFO Connection transportReady,connectionId = 1732595644963_172.22.0.3_35690 
+
+2024-11-26 12:34:04,989 INFO Connection transportTerminated,connectionId = 1732595644963_172.22.0.3_35690 
+
+2024-11-26 12:34:05,790 INFO Connection transportReady,connectionId = 1732595645790_172.22.0.5_47486 
+
+2024-11-26 12:34:05,991 INFO Connection transportReady,connectionId = 1732595645991_172.22.0.3_35692 
+
+2024-11-26 12:37:23,910 INFO Connection transportTerminated,connectionId = 1732595645790_172.22.0.5_47486 
+
+2024-11-26 12:37:23,910 INFO Connection transportTerminated,connectionId = 1732595645991_172.22.0.3_35692 
+
+2024-11-26 12:37:23,915 INFO [1732595645790_172.22.0.5_47486]client disconnected,clear config listen context
+
+2024-11-26 12:37:23,916 INFO [1732595645991_172.22.0.3_35692]client disconnected,clear config listen context
+
+2024-11-26 12:38:21,868 INFO Connection transportReady,connectionId = 1732595901868_172.16.238.11_59086 
+
+2024-11-26 12:38:22,112 INFO Connection transportReady,connectionId = 1732595902112_172.16.238.10_35356 
+
+2024-11-26 12:38:22,221 INFO Connection transportTerminated,connectionId = 1732595901868_172.16.238.11_59086 
+
+2024-11-26 12:38:22,289 INFO Connection transportTerminated,connectionId = 1732595902112_172.16.238.10_35356 
+
+2024-11-26 12:38:22,848 INFO Connection transportReady,connectionId = 1732595902847_172.16.238.11_59098 
+
+2024-11-26 12:38:22,890 INFO Connection transportTerminated,connectionId = 1732595902847_172.16.238.11_59098 
+
+2024-11-26 12:38:22,937 INFO Connection transportReady,connectionId = 1732595902937_172.16.238.10_35358 
+
+2024-11-26 12:38:22,972 INFO Connection transportTerminated,connectionId = 1732595902937_172.16.238.10_35358 
+
+2024-11-26 12:38:23,602 INFO Connection transportReady,connectionId = 1732595903602_172.16.238.11_59106 
+
+2024-11-26 12:38:23,624 INFO Connection transportTerminated,connectionId = 1732595903602_172.16.238.11_59106 
+
+2024-11-26 12:38:23,695 INFO Connection transportReady,connectionId = 1732595903695_172.16.238.10_35372 
+
+2024-11-26 12:38:23,725 INFO Connection transportTerminated,connectionId = 1732595903695_172.16.238.10_35372 
+
+2024-11-26 12:38:24,438 INFO Connection transportReady,connectionId = 1732595904438_172.16.238.11_59108 
+
+2024-11-26 12:38:24,453 INFO Connection transportTerminated,connectionId = 1732595904438_172.16.238.11_59108 
+
+2024-11-26 12:38:24,609 INFO Connection transportReady,connectionId = 1732595904609_172.16.238.10_35376 
+
+2024-11-26 12:38:24,649 INFO Connection transportTerminated,connectionId = 1732595904609_172.16.238.10_35376 
+
+2024-11-26 12:38:25,355 INFO Connection transportReady,connectionId = 1732595905355_172.16.238.11_59116 
+
+2024-11-26 12:38:25,549 INFO Connection transportReady,connectionId = 1732595905549_172.16.238.10_35378 
+
+2024-11-26 15:37:34,244 INFO Connection transportReady,connectionId = 1732606654244_172.16.238.1_59684 
+
+2024-11-26 15:38:12,007 INFO Connection transportTerminated,connectionId = 1732606654244_172.16.238.1_59684 
+
+2024-11-26 15:38:12,010 INFO [1732606654244_172.16.238.1_59684]client disconnected,clear config listen context
+
+2024-11-26 15:38:29,140 INFO Connection transportReady,connectionId = 1732606709140_172.16.238.1_33636 
+
+2024-11-26 15:48:39,163 INFO Connection transportTerminated,connectionId = 1732606709140_172.16.238.1_33636 
+
+2024-11-26 15:48:39,164 WARN [1732606709140_172.16.238.1_33636] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 15:48:39,165 INFO [1732606709140_172.16.238.1_33636]client disconnected,clear config listen context
+
+2024-11-26 16:01:52,258 INFO Connection transportTerminated,connectionId = 1732595905549_172.16.238.10_35378 
+
+2024-11-26 16:01:52,258 INFO Connection transportTerminated,connectionId = 1732595905355_172.16.238.11_59116 
+
+2024-11-26 16:01:52,264 INFO [1732595905549_172.16.238.10_35378]client disconnected,clear config listen context
+
+2024-11-26 16:01:52,271 INFO [1732595905355_172.16.238.11_59116]client disconnected,clear config listen context
+
+2024-11-26 16:02:50,760 INFO Connection transportReady,connectionId = 1732608170760_172.16.238.10_41732 
+
+2024-11-26 16:02:50,971 INFO Connection transportReady,connectionId = 1732608170971_172.16.238.11_49000 
+
+2024-11-26 16:02:50,979 INFO Connection transportTerminated,connectionId = 1732608170760_172.16.238.10_41732 
+
+2024-11-26 16:02:51,078 INFO Connection transportTerminated,connectionId = 1732608170971_172.16.238.11_49000 
+
+2024-11-26 16:02:51,543 INFO Connection transportReady,connectionId = 1732608171543_172.16.238.1_44388 
+
+2024-11-26 16:02:51,560 INFO Connection transportTerminated,connectionId = 1732608171543_172.16.238.1_44388 
+
+2024-11-26 16:02:51,587 INFO Connection transportReady,connectionId = 1732608171587_172.16.238.10_41738 
+
+2024-11-26 16:02:51,596 INFO Connection transportTerminated,connectionId = 1732608171587_172.16.238.10_41738 
+
+2024-11-26 16:02:51,745 INFO Connection transportReady,connectionId = 1732608171745_172.16.238.11_49016 
+
+2024-11-26 16:02:51,758 INFO Connection transportTerminated,connectionId = 1732608171745_172.16.238.11_49016 
+
+2024-11-26 16:02:52,306 INFO Connection transportReady,connectionId = 1732608172305_172.16.238.10_41754 
+
+2024-11-26 16:02:52,338 INFO Connection transportTerminated,connectionId = 1732608172305_172.16.238.10_41754 
+
+2024-11-26 16:02:52,469 INFO Connection transportReady,connectionId = 1732608172469_172.16.238.11_49020 
+
+2024-11-26 16:02:52,502 INFO Connection transportTerminated,connectionId = 1732608172469_172.16.238.11_49020 
+
+2024-11-26 16:02:53,262 INFO Connection transportReady,connectionId = 1732608173262_172.16.238.10_41770 
+
+2024-11-26 16:02:53,308 INFO Connection transportReady,connectionId = 1732608173308_172.16.238.11_49034 
+
+2024-11-26 16:02:53,319 INFO Connection transportTerminated,connectionId = 1732608173308_172.16.238.11_49034 
+
+2024-11-26 16:02:53,436 INFO Connection transportTerminated,connectionId = 1732608173262_172.16.238.10_41770 
+
+2024-11-26 16:02:54,223 INFO Connection transportReady,connectionId = 1732608174223_172.16.238.11_49048 
+
+2024-11-26 16:02:54,336 INFO Connection transportReady,connectionId = 1732608174336_172.16.238.10_41772 
+
+2024-11-26 16:02:56,705 INFO Connection transportReady,connectionId = 1732608176705_172.16.238.1_44400 
+
+2024-11-26 16:05:24,454 INFO Connection transportTerminated,connectionId = 1732608176705_172.16.238.1_44400 
+
+2024-11-26 16:05:24,457 INFO [1732608176705_172.16.238.1_44400]client disconnected,clear config listen context
+
+2024-11-26 16:08:31,546 INFO Connection transportTerminated,connectionId = 1732608174336_172.16.238.10_41772 
+
+2024-11-26 16:08:31,546 INFO Connection transportTerminated,connectionId = 1732608174223_172.16.238.11_49048 
+
+2024-11-26 16:08:31,551 INFO [1732608174336_172.16.238.10_41772]client disconnected,clear config listen context
+
+2024-11-26 16:08:31,554 INFO [1732608174223_172.16.238.11_49048]client disconnected,clear config listen context
+
+2024-11-26 16:09:14,678 INFO Connection transportReady,connectionId = 1732608554678_172.16.238.11_57136 
+
+2024-11-26 16:09:14,777 INFO Connection transportReady,connectionId = 1732608554777_172.16.238.10_60296 
+
+2024-11-26 16:09:14,807 INFO Connection transportTerminated,connectionId = 1732608554777_172.16.238.10_60296 
+
+2024-11-26 16:09:14,809 INFO Connection transportTerminated,connectionId = 1732608554678_172.16.238.11_57136 
+
+2024-11-26 16:09:15,520 INFO Connection transportReady,connectionId = 1732608555520_172.16.238.11_57148 
+
+2024-11-26 16:09:15,527 INFO Connection transportReady,connectionId = 1732608555527_172.16.238.10_60306 
+
+2024-11-26 16:09:15,567 INFO Connection transportTerminated,connectionId = 1732608555527_172.16.238.10_60306 
+
+2024-11-26 16:09:15,589 INFO Connection transportTerminated,connectionId = 1732608555520_172.16.238.11_57148 
+
+2024-11-26 16:09:16,370 INFO Connection transportReady,connectionId = 1732608556370_172.16.238.10_60314 
+
+2024-11-26 16:09:16,437 INFO Connection transportTerminated,connectionId = 1732608556370_172.16.238.10_60314 
+
+2024-11-26 16:09:16,444 INFO Connection transportReady,connectionId = 1732608556444_172.16.238.11_57164 
+
+2024-11-26 16:09:16,497 INFO Connection transportTerminated,connectionId = 1732608556444_172.16.238.11_57164 
+
+2024-11-26 16:09:17,308 INFO Connection transportReady,connectionId = 1732608557308_172.16.238.10_60316 
+
+2024-11-26 16:09:17,356 INFO Connection transportTerminated,connectionId = 1732608557308_172.16.238.10_60316 
+
+2024-11-26 16:09:17,383 INFO Connection transportReady,connectionId = 1732608557383_172.16.238.11_57168 
+
+2024-11-26 16:09:17,392 INFO Connection transportTerminated,connectionId = 1732608557383_172.16.238.11_57168 
+
+2024-11-26 16:09:18,325 INFO Connection transportReady,connectionId = 1732608558325_172.16.238.10_37414 
+
+2024-11-26 16:09:18,393 INFO Connection transportReady,connectionId = 1732608558393_172.16.238.11_60968 
+
+2024-11-26 16:10:46,512 INFO Connection transportTerminated,connectionId = 1732608558393_172.16.238.11_60968 
+
+2024-11-26 16:10:46,512 INFO Connection transportTerminated,connectionId = 1732608558325_172.16.238.10_37414 
+
+2024-11-26 16:10:46,517 INFO [1732608558393_172.16.238.11_60968]client disconnected,clear config listen context
+
+2024-11-26 16:10:46,530 INFO [1732608558325_172.16.238.10_37414]client disconnected,clear config listen context
+
+2024-11-26 16:11:13,144 INFO Connection transportReady,connectionId = 1732608673144_172.16.238.10_51270 
+
+2024-11-26 16:11:13,206 INFO Connection transportTerminated,connectionId = 1732608673144_172.16.238.10_51270 
+
+2024-11-26 16:11:13,284 INFO Connection transportReady,connectionId = 1732608673284_172.16.238.11_51834 
+
+2024-11-26 16:11:13,453 INFO Connection transportTerminated,connectionId = 1732608673284_172.16.238.11_51834 
+
+2024-11-26 16:11:13,892 INFO Connection transportReady,connectionId = 1732608673892_172.16.238.10_51276 
+
+2024-11-26 16:11:13,940 INFO Connection transportTerminated,connectionId = 1732608673892_172.16.238.10_51276 
+
+2024-11-26 16:11:14,161 INFO Connection transportReady,connectionId = 1732608674161_172.16.238.11_51842 
+
+2024-11-26 16:11:14,193 INFO Connection transportTerminated,connectionId = 1732608674161_172.16.238.11_51842 
+
+2024-11-26 16:11:14,658 INFO Connection transportReady,connectionId = 1732608674658_172.16.238.10_51282 
+
+2024-11-26 16:11:14,719 INFO Connection transportTerminated,connectionId = 1732608674658_172.16.238.10_51282 
+
+2024-11-26 16:11:15,009 INFO Connection transportReady,connectionId = 1732608675009_172.16.238.11_51850 
+
+2024-11-26 16:11:15,144 INFO Connection transportTerminated,connectionId = 1732608675009_172.16.238.11_51850 
+
+2024-11-26 16:11:15,549 INFO Connection transportReady,connectionId = 1732608675549_172.16.238.10_51284 
+
+2024-11-26 16:11:15,615 INFO Connection transportTerminated,connectionId = 1732608675549_172.16.238.10_51284 
+
+2024-11-26 16:11:16,030 INFO Connection transportReady,connectionId = 1732608676030_172.16.238.11_51858 
+
+2024-11-26 16:11:16,046 INFO Connection transportTerminated,connectionId = 1732608676030_172.16.238.11_51858 
+
+2024-11-26 16:11:16,514 INFO Connection transportReady,connectionId = 1732608676514_172.16.238.10_51298 
+
+2024-11-26 16:11:16,543 INFO Connection transportTerminated,connectionId = 1732608676514_172.16.238.10_51298 
+
+2024-11-26 16:11:17,049 INFO Connection transportReady,connectionId = 1732608677049_172.16.238.11_51866 
+
+2024-11-26 16:11:17,542 INFO Connection transportReady,connectionId = 1732608677542_172.16.238.10_51300 
+
+2024-11-26 16:12:14,907 INFO Connection transportReady,connectionId = 1732608734907_172.16.238.1_56370 
+
+2024-11-26 16:19:20,720 INFO Connection transportTerminated,connectionId = 1732608734907_172.16.238.1_56370 
+
+2024-11-26 16:19:20,723 INFO [1732608734907_172.16.238.1_56370]client disconnected,clear config listen context
+
+2024-11-26 16:19:47,557 INFO Connection transportReady,connectionId = 1732609187557_172.16.238.1_53598 
+
+2024-11-26 16:20:54,664 INFO Connection transportTerminated,connectionId = 1732609187557_172.16.238.1_53598 
+
+2024-11-26 16:20:54,665 WARN [1732609187557_172.16.238.1_53598] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 16:20:54,667 INFO [1732609187557_172.16.238.1_53598]client disconnected,clear config listen context
+
+2024-11-26 17:00:22,409 INFO Connection transportReady,connectionId = 1732611622409_172.16.238.1_52786 
+
+2024-11-26 17:05:47,895 INFO Connection transportTerminated,connectionId = 1732611622409_172.16.238.1_52786 
+
+2024-11-26 17:05:47,897 INFO [1732611622409_172.16.238.1_52786]client disconnected,clear config listen context
+
+2024-11-26 17:08:14,773 INFO Connection transportReady,connectionId = 1732612094773_172.16.238.1_41500 
+
+2024-11-26 17:36:02,826 INFO Connection transportReady,connectionId = 1732613762826_172.16.238.1_40092 
+
+2024-11-26 17:38:04,422 INFO Connection transportTerminated,connectionId = 1732612094773_172.16.238.1_41500 
+
+2024-11-26 17:38:04,422 WARN [1732612094773_172.16.238.1_41500] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 17:38:04,424 INFO [1732612094773_172.16.238.1_41500]client disconnected,clear config listen context
+
+2024-11-26 17:38:30,770 INFO Connection transportReady,connectionId = 1732613910770_172.16.238.1_38066 
+
+2024-11-26 17:38:38,253 INFO Connection transportTerminated,connectionId = 1732613910770_172.16.238.1_38066 
+
+2024-11-26 17:38:38,261 WARN [1732613910770_172.16.238.1_38066] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 17:38:38,266 INFO [1732613910770_172.16.238.1_38066]client disconnected,clear config listen context
+
+2024-11-26 17:43:17,679 INFO Connection transportTerminated,connectionId = 1732613762826_172.16.238.1_40092 
+
+2024-11-26 17:43:17,689 INFO [1732613762826_172.16.238.1_40092]client disconnected,clear config listen context
+
+2024-11-26 17:43:31,789 INFO Connection transportReady,connectionId = 1732614211789_172.16.238.1_49912 
+
+2024-11-26 17:43:40,300 INFO Connection transportTerminated,connectionId = 1732614211789_172.16.238.1_49912 
+
+2024-11-26 17:43:40,302 INFO [1732614211789_172.16.238.1_49912]client disconnected,clear config listen context
+
+2024-11-26 17:48:43,212 INFO Connection transportReady,connectionId = 1732614523212_172.16.238.1_36218 
+
+2024-11-26 17:49:35,450 INFO Connection transportTerminated,connectionId = 1732614523212_172.16.238.1_36218 
+
+2024-11-26 17:49:35,459 INFO [1732614523212_172.16.238.1_36218]client disconnected,clear config listen context
+
+2024-11-26 17:49:53,117 INFO Connection transportReady,connectionId = 1732614593117_172.16.238.1_58816 
+
+2024-11-26 17:49:53,603 INFO Connection transportTerminated,connectionId = 1732614593117_172.16.238.1_58816 
+
+2024-11-26 17:49:53,603 WARN [1732614593117_172.16.238.1_58816] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 17:49:53,605 INFO [1732614593117_172.16.238.1_58816]client disconnected,clear config listen context
+
+2024-11-26 17:56:14,781 INFO Connection transportReady,connectionId = 1732614974781_172.16.238.1_37372 
+
+2024-11-26 17:57:39,779 INFO Connection transportTerminated,connectionId = 1732614974781_172.16.238.1_37372 
+
+2024-11-26 17:57:39,788 INFO [1732614974781_172.16.238.1_37372]client disconnected,clear config listen context
+
+2024-11-26 17:57:57,174 INFO Connection transportReady,connectionId = 1732615077174_172.16.238.1_49422 
+
+2024-11-26 18:02:37,780 INFO Connection transportTerminated,connectionId = 1732615077174_172.16.238.1_49422 
+
+2024-11-26 18:02:37,781 WARN [1732615077174_172.16.238.1_49422] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 18:02:37,783 INFO [1732615077174_172.16.238.1_49422]client disconnected,clear config listen context
+
+2024-11-26 18:05:10,789 INFO Connection transportReady,connectionId = 1732615510789_172.16.238.1_44916 
+
+2024-11-26 18:05:51,244 INFO Connection transportTerminated,connectionId = 1732615510789_172.16.238.1_44916 
+
+2024-11-26 18:05:51,246 INFO [1732615510789_172.16.238.1_44916]client disconnected,clear config listen context
+
+2024-11-26 18:06:09,151 INFO Connection transportReady,connectionId = 1732615569151_172.16.238.1_55432 
+
+2024-11-26 18:14:17,744 INFO Connection transportTerminated,connectionId = 1732615569151_172.16.238.1_55432 
+
+2024-11-26 18:14:17,745 WARN [1732615569151_172.16.238.1_55432] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 18:14:17,746 INFO [1732615569151_172.16.238.1_55432]client disconnected,clear config listen context
+
+2024-11-26 18:16:17,456 INFO Connection transportReady,connectionId = 1732616177456_172.16.238.1_42110 
+
+2024-11-26 18:16:25,750 INFO Connection transportTerminated,connectionId = 1732616177456_172.16.238.1_42110 
+
+2024-11-26 18:16:25,751 INFO [1732616177456_172.16.238.1_42110]client disconnected,clear config listen context
+
+2024-11-26 18:17:03,728 INFO Connection transportReady,connectionId = 1732616223728_172.16.238.1_45450 
+
+2024-11-26 18:18:44,453 INFO Connection transportTerminated,connectionId = 1732616223728_172.16.238.1_45450 
+
+2024-11-26 18:18:44,454 WARN [1732616223728_172.16.238.1_45450] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 18:18:44,455 INFO [1732616223728_172.16.238.1_45450]client disconnected,clear config listen context
+
+2024-11-26 18:19:28,188 INFO Connection transportReady,connectionId = 1732616368188_172.16.238.1_47784 
+
+2024-11-26 18:21:31,984 INFO Connection transportReady,connectionId = 1732616491984_172.16.238.1_48306 
+
+2024-11-26 18:31:29,001 INFO Connection transportTerminated,connectionId = 1732616491984_172.16.238.1_48306 
+
+2024-11-26 18:31:29,002 WARN [1732616491984_172.16.238.1_48306] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:218)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:213)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:213)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:147)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:140)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:522)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:823)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-26 18:31:29,004 INFO [1732616491984_172.16.238.1_48306]client disconnected,clear config listen context
+
+2024-11-26 18:35:30,921 INFO Connection transportReady,connectionId = 1732617330921_172.16.238.1_52950 
+
+2024-11-26 18:54:20,155 INFO Connection transportTerminated,connectionId = 1732616368188_172.16.238.1_47784 
+
+2024-11-26 18:54:20,157 INFO [1732616368188_172.16.238.1_47784]client disconnected,clear config listen context
+
+2024-11-26 18:54:22,174 INFO Connection transportTerminated,connectionId = 1732617330921_172.16.238.1_52950 
+
+2024-11-26 18:54:22,175 INFO [1732617330921_172.16.238.1_52950]client disconnected,clear config listen context
+
+2024-11-26 19:03:23,361 INFO Connection transportReady,connectionId = 1732619003361_172.16.238.1_49478 
+

@@ -1,0 +1,8 @@
+2024-11-26 17:43:39,471 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='qxdata-system-server', ephemeral=true, revision=4}
+
+2024-11-26 18:35:38,638 INFO [PUSH] Task merge for Service{namespace='qxdata', group='qxdata', name='qxdata-gateway-server', ephemeral=true, revision=5}
+
+2024-11-26 18:35:38,993 INFO [PUSH-SUCC] 60ms, all delay time 595ms, SLA 595ms, Service{namespace='qxdata', group='qxdata', name='qxdata-gateway-server', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.17.0.5
+
+2024-11-26 18:35:39,238 INFO [PUSH-SUCC] 6ms, all delay time 600ms for subscriber 172.17.0.5, Service{namespace='qxdata', group='qxdata', name='qxdata-system-server', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+

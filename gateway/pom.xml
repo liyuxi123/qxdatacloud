@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qx</groupId>
+        <artifactId>qxdatacloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>gateway</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <!--   gateway     -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+<!--        用于启用 Bootstrap Context 的功能,使用 bootstrap.yml -->
+<!--        在 Spring Cloud 2020.0 之前，Bootstrap Context 是默认启用的，Spring Cloud 会自动在应用启动时加载 bootstrap.properties 或 bootstrap.yml。-->
+<!--        从 Spring Cloud 2020.0 开始，Bootstrap Context 被标记为可选功能，需要显式引入 spring-cloud-starter-bootstrap 才能启用。-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
+        <!--网关负载均衡依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

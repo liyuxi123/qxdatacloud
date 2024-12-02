@@ -1,0 +1,21 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: qxdata-gateway-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.66.166:1111
+        group: qxdata
+        namespace: qxdata
+      config:
+        server-addr: 192.168.66.166:1111
+        file-extension: yaml
+        namespace: c9e3be4d-5169-46ab-aed9-3e2c94165578
+        group: qxdatacloud
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

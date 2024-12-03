@@ -8,5 +8,27 @@
    1. 挂载目录：打开配置文件/qxdatacloud/nacos-docker/example/.env,将HOST_VOLUME_PATH修改你成你的地址
    2. /qxdatacloud/nacos-docker/下执行命令启动nacos 命令：
    3. `docker-compose -f example/cluster-ip.yaml -p nacos up`
+   4. nginx代理集群，统一转发1111端口（可选）,配置文件/qxdatacloud/nacos-docker/nginx/nginx.conf
+      nacos2.1.1版本之后需要grpc协议配置（TCP长连接）
+`stream {
+   # 负载均衡配置（TCP，gRPC协议）
+   upstream lb-nacos-tcp {
+   server 127.0.0.1:9848;
+   server 127.0.0.1:9849;
+   server 127.0.0.1:9850;
+   }
+
+   # 监听gRPC的端口（2111）
+   server {
+   listen 2111;
+   proxy_pass lb-nacos-tcp;  # 使用正确的upstream名称
+
+        # 如果需要转发其他gRPC请求，您可以添加更多配置，如：
+        # proxy_set_header Host $host;
+        # proxy_set_header X-Real-IP $remote_addr;
+        # 等等
+   }`
+
+
 
 ## 二、 gateway

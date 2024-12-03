@@ -10,6 +10,5 @@
    3. `docker-compose -f example/cluster-ip.yaml -p nacos up`
    4. nginx代理集群，统一转发1111端口（可选）,配置文件/qxdatacloud/nacos-docker/nginx/nginx.conf
       nacos2.1.1版本之后需要grpc协议配置（TCP长连接）
- 
-   
+      nacos登录地址（无d用户名和密码）： http://127.0.0.1:1111/nacos/
 ## 二、 gateway

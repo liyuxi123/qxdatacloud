@@ -22,6 +22,6 @@ public class ConfigClientController
     @GetMapping("/config/info")
     public String getConfigInfo()
     {
-        return info ;
+        return info +"--test";
     }
 }

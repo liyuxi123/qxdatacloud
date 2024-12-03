@@ -7,13 +7,13 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.66.166:1111
-        group: qxdata
-        namespace: qxdata
+        group: qxcloud-group  #保持统一名称 不然网关不起作用
+        namespace: qxdata   #nacos上定义空间ID
       config:
         server-addr: 192.168.66.166:1111
         file-extension: yaml
-        namespace: c9e3be4d-5169-46ab-aed9-3e2c94165578
-        group: qxdatacloud
+        namespace: qxdata
+        group: Gateway-Group
 management:
   endpoints:
     web:

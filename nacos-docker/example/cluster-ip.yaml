@@ -75,6 +75,22 @@ services:
       timeout: 10s
       retries: 10
 
+  nginx:
+    image: nginx:latest # 直接指定从远程拉取的镜像
+    container_name: nocasnginx
+    ports:
+      - "2111:2111"
+      - "1111:1111"
+    volumes:
+      - ${HOST_VOLUME_PATH}/nginx/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - nacos_net  # 确保 Nginx 在同一个网络中
+    depends_on:
+      - nacos1
+      - nacos2
+      - nacos3
+      - mysql
+
 networks:
   nacos_net:
     driver: bridge

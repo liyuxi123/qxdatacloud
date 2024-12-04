@@ -5,21 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qx</groupId>
-        <artifactId>common-fenci</artifactId>
+        <artifactId>common</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>hanlp</artifactId>
-    <version>1.0.0</version>
+
+    <artifactId>common-rabbitmq</artifactId>
 
     <properties>
-        <hanlp.version>portable-1.7.5</hanlp.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.hankcs</groupId>
-            <artifactId>hanlp</artifactId>
-            <version>${hanlp.version}</version>
-        </dependency>
-    </dependencies>
 </project>

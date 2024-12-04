@@ -17,5 +17,25 @@
         <module>ai-server</module>
         <module>bi-server</module>
         <module>test-server</module>
+        <module>kettle-service</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+<!--  公共包的引入 需要在对应包进行install 在右侧mavne面板中找到对应package进行 install-->
+            <dependency>
+                <groupId>com.qx</groupId>
+                <artifactId>hanlp</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.qx</groupId>
+                <artifactId>common-untils</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
 </project>

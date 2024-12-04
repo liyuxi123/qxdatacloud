@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qx</groupId>
+        <artifactId>common</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>common-untils</artifactId>
+    <version>1.0.0</version>
+    <dependencies>
+        <!--        Hutool 是一个开源的 Java 工具库，旨在简化 Java 开发中的各种常见操作-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.29</version>
+        </dependency>
+        <!--        Oshi是一个免费的基于JNA的获取操作系统和硬件信息的java库，Github地址是：oshi-->
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>6.4.1</version>
+        </dependency>
+    </dependencies>
+
+</project>

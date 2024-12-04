@@ -13,6 +13,13 @@
     <version>1.0.0</version>
     <modules>
         <module>common-fenci</module>
+        <module>common-untils</module>
+        <module>common-oracle</module>
+        <module>common-security</module>
+        <module>common-rabbitmq</module>
+        <module>common-office</module>
+        <module>common-redis</module>
+        <module>common-service-api</module>
     </modules>
 
 

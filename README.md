@@ -12,3 +12,23 @@
       nacos2.1.1版本之后需要grpc协议配置（TCP长连接）
       nacos登录地址（无d用户名和密码）： http://127.0.0.1:1111/nacos/
 ## 二、 gateway
+     1、如何整合各个自服务地址统一端口地址对外
+     2、如何负载均衡
+
+## 三、modules
+     1、子服务之间如何通过openfeign与loadbalancer互相调用
+       <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+## 三、common
+     1、如何构造common模块
+     2、如何引入common模块
+
+     
+
+   

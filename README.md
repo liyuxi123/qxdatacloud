@@ -25,7 +25,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
-## 四、common
+## 四、common公共模块
      1、如何构造common模块
      2、如何引入common模块
 

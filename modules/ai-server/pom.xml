@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qx</groupId>
+        <artifactId>modules</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>ai-server</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <!--==========微服务标配3个=================================================================   -->
+        <!-- 1 注册-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!-- 2 配置-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!--  3 使用bootstrap.yml-->
+        <!-- 用于启用 Bootstrap Context 的功能,使用 bootstrap.yml -->
+        <!-- 在 Spring Cloud 2020.0 之前，Bootstrap Context 是默认启用的，Spring Cloud 会自动在应用启动时加载 bootstrap.properties 或 bootstrap.yml。-->
+        <!--从 Spring Cloud 2020.0 开始，Bootstrap Context 被标记为可选功能，需要显式引入 spring-cloud-starter-bootstrap 才能启用。-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
+
+        <!--==========springboot标配2个=============================================================-->
+        <!--        1 Spring Boot 基础模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--        2 Spring Boot 监控管理 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+
+
+
+</project>

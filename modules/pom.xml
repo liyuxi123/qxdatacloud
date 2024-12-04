@@ -14,5 +14,8 @@
     <version>1.0.0</version>
     <modules>
         <module>system-server</module>
+        <module>ai-server</module>
+        <module>bi-server</module>
+        <module>test-server</module>
     </modules>
 </project>

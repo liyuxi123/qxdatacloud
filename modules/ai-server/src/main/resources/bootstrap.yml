@@ -1,0 +1,21 @@
+server:
+  port: 8811
+spring:
+  application:
+    name: qxdata-ai-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.66.166:1111
+        group: qxcloud-group  # #保持统一名称 不然网关不起作用
+        namespace: qxdata   #在nacos上定义的空间ID
+      config:
+        server-addr: 192.168.66.166:1111
+        file-extension: yaml
+        namespace: qxdata
+        group: AI-Group
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

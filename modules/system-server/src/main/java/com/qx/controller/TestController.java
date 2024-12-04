@@ -58,7 +58,7 @@ public class TestController
   List<Term> afterRemoveSeg = HanlpTestService.segmentAfterRemovingCustomNature(text, "你咳嗽");
   System.out.println("移除自定义词性分词结果: " + afterRemoveSeg);
   LinkedHashMap<String, Object > HanlpResponse  =new LinkedHashMap<>();
-  HanlpResponse.put("分词句子",text);
+  HanlpResponse.put("分词句子：",text);
   HanlpResponse.put("动态设置词性","你咳嗽/keshou");
   HanlpResponse.put("默认分词结果",defaultSeg.toString());
   HanlpResponse.put("动态设置词性分词结果",customSeg.toString());
